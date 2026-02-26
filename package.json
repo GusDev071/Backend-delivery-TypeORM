@@ -1,0 +1,49 @@
+{
+    "name": "eat-fast-backend",
+    "version": "0.0.1",
+    "description": "Backend para la plataforma de eatFast para poder gestionar pedidos y restaurantes, comerciones locales.",
+    "keywords": [
+        "Backend",
+        "JWT",
+        "SQL"
+    ],
+    "homepage": "https://github.com/GusDev071/EatFast#readme",
+    "bugs": {
+        "url": "https://github.com/GusDev071/EatFast/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/GusDev071/EatFast.git"
+    },
+    "license": "ISC",
+    "author": "GusDev071",
+    "type": "commonjs",
+    "main": "index.ts",
+    "dependencies": {
+        "bcrypt": "^6.0.0",
+        "cors": "^2.8.6",
+        "express": "^5.2.1",
+        "morgan": "^1.10.1",
+        "multer": "^2.0.2",
+        "passport": "^0.7.0",
+        "pg": "^8.19.0",
+        "reflect-metadata": "^0.2.2",
+        "typeorm": "^0.3.28"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "ts-node src/server.ts",
+        "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/server.ts"
+    },
+    "devDependencies": {
+        "@types/bcrypt": "^6.0.0",
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.6",
+        "@types/morgan": "^1.9.10",
+        "@types/multer": "^2.0.0",
+        "@types/node": "^25.3.1",
+        "@types/passport": "^1.0.17",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.3"
+    }
+}
